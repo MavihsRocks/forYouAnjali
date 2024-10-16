@@ -75,12 +75,16 @@ body {
 
 #letter {
   position: absolute;
-  width: 450px;
-  height: 475px;
+  width: 500px;
+  height: 750px;
   left: 60px;
-  top: 80px;
+  bottom: 130px;
+  top: auto;
   display: none;
   color: #228567;
+
+  /* display: block; */
+  overflow: auto;
 
   font-size: 22px;
   /*font-family: 'HoneyBee'; */
