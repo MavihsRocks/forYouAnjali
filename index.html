@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Love Letter</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <script src="animation.js"></script>
+    <style>
+      body {
+        transform: scale(0.8);
+        transform-origin: top left;
+        width: 125%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="just1" id="just1">
+      <h5>
+        Thoda sa pinch karle yaar, zoomed out hai
+      </h5>
+      <img src="pinch.gif" alt="Zoom karle thoda sa">
+    </div>
+    <div id="starter">
+      <audio loop id="bgm">
+        <source src="bgm.mp3" type="audio/mpeg" />
+      </audio>
+      <div class="myclass">
+        <div id="main">
+          <div id="letter">
+            <p>When I grow old, my pyaar for you will remain the same,</p>
+            <p>Sending you messages from my desk,</p>
+            <p>In the soft glow of the lamp, with the rain outside,</p>
+            <p>Taking half a day to say, "I miss you,"</p>
+            <p>In the fields of my heart,</p>
+            <p>Sometimes stars chase the moon, sometimes wild horses run.</p>
+            <br />
+            <p>Sometimes under the moonlight,</p>
+            <p>I dream a winding dream,</p>
+            <p>Every turn filled with you,</p>
+            <p>Your smile lighting up my day.</p>
+            
+          </div>
+          <div id="clock-box">
+            <div id="clock-text">
+              <span class="name">Anjali</span> , yaar
+              <span class="name"></span> Thanks for being such a great friend ~
+            </div>
+            <div id="clock"></div>
+          </div>
+          <canvas id="canvas"></canvas>
+        </div>
+      </div>
+    </div>
+    <input type="hidden" id="memorialDate" value="2021-06-06T00:00:00" />
+    <script src="app.js"></script>
+  </body>
+</html>
